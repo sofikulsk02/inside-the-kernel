@@ -27,5 +27,3 @@ Virtualization makes systems easier to use: you can run multiple apps at once wi
 It also makes systems fairer and more efficient, since the OS can balance workloads and enforce policies.
 
 In short, CPU virtualization is the operating system’s trick of time-sharing: it manages the illusion that every program has its own processor, even though they’re all sharing the same physical hardware.
-
-Would you like me to also break down how scheduling algorithms (like round-robin or shortest job first) actually implement this illusion? That’s the next big piece after the introduction to CPU virtualization.
