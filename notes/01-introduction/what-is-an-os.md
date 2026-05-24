@@ -11,3 +11,11 @@ a typical os exports a few hundred system calls to control i/o run program and a
 so we know that the os provides virtualization like we can run multiple programs at a time (sharing of cpu) many program to access their instruction and data cuncurrently(sharing of memory) and many program to access devices (sharing of disk). so all these are resources and the os has the job to manage them fairly and efficiently and keeping other goals to the mind
 
 #### the relivant question is that if we some program when which one should run and what is the rules , to answer these questions we have polices in os we have different policies to answer these kind of scenarios.
+
+### virtualizing memory
+
+the model of physical memory represented by modern machines is very simple now a days it is just array of bytes
+
+to read or write from the memory we need the address
+
+### PID : Process identifier (this is uniuqe to every proccess)
