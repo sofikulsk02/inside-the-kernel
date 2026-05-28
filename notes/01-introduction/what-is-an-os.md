@@ -1,21 +1,29 @@
-### why do we call os is a virtual machine?
+### Why do we call the OS a virtual machine?
 
-the work of os is to make sure that the system works properly and efficiently , to make sure the os does something called virtualizing the resources like we have physical devices involded (eg: ram ,cpu, memory,disks and all) .so the os takes the physical resource and transform it into something that is more general and easy to use virtual form of itself. thus sometime we mention os as virtual machine
+The job of the operating system (OS) is to ensure that the system works properly and efficiently. To achieve this, the OS performs something called virtualization of resources. We have physical devices involved (e.g., RAM, CPU, memory, disks, etc.), and the OS takes these physical resources and transforms them into a more general and easy-to-use virtual form. Thus, sometimes we refer to the OS as a virtual machine.
 
-the user need to tell the os when to start a program when to stop when there is a read ops and other tasks the os provides some apis for that
+The user needs to tell the OS when to start a program, when to stop it, when to perform a read operation, and other tasks. The OS provides APIs for these actions.
 
-a typical os exports a few hundred system calls to control i/o run program and all we can say that the os provides some standrad library to the application
+A typical OS exports a few hundred system calls to control I/O, run programs, and perform other operations. In this sense, we can say that the OS provides a kind of standard library to applications.
 
-### why do we call os as a resource manager?
+### Why do we call the OS a resource manager?
 
-so we know that the os provides virtualization like we can run multiple programs at a time (sharing of cpu) many program to access their instruction and data cuncurrently(sharing of memory) and many program to access devices (sharing of disk). so all these are resources and the os has the job to manage them fairly and efficiently and keeping other goals to the mind
+We know that the OS provides virtualization. For example:
 
-#### the relivant question is that if we some program when which one should run and what is the rules , to answer these questions we have polices in os we have different policies to answer these kind of scenarios.
+Multiple programs can run at the same time (sharing the CPU).
 
-### virtualizing memory
+Many programs can access their instructions and data concurrently (sharing memory).
 
-the model of physical memory represented by modern machines is very simple now a days it is just array of bytes
+Many programs can access devices (sharing disks).
 
-to read or write from the memory we need the address
+All these are resources, and the OS has the job of managing them fairly and efficiently, while keeping other goals in mind.
 
-### PID : Process identifier (this is uniuqe to every proccess)
+The relevant question is: if we have multiple programs, which one should run, and what rules decide this? To answer these questions, the OS uses policies. Different policies exist to handle such scenarios.
+
+Virtualizing memory
+The model of physical memory represented by modern machines is very simple. Nowadays, it is just an array of bytes.
+
+To read or write from memory, we need the address.
+
+PID: Process Identifier
+A PID is a unique identifier assigned to every process.
