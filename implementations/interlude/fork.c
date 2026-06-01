@@ -3,6 +3,10 @@
 #include<unistd.h>
 #include<sys/types.h>
 
+int intro(){
+    // a function for the os process
+}
+
 int main(int argc , char * argv[]){
     printf("this is system call (PID:%d)\n",(int) getpid());
     pid_t rc = fork();
@@ -19,3 +23,4 @@ int main(int argc , char * argv[]){
     }
     return 0;
 }
+
