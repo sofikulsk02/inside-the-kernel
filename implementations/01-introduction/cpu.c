@@ -8,6 +8,9 @@ void Spin(int seconds) {
     sleep(seconds);
 }
 
+void circle(int n){
+    return n*10;
+}
 int main(int argc , char *argv []){
     if(argc!=2){
         fprintf(stderr,"usage: cpu<string>\n");
