@@ -11,6 +11,10 @@ void Spin(int seconds) {
 void circle(int n){
     return n*10;
 }
+
+void squre(int n){
+    return n*n;
+}
 int main(int argc , char *argv []){
     if(argc!=2){
         fprintf(stderr,"usage: cpu<string>\n");
