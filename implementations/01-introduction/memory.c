@@ -2,6 +2,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "common.h"
+int hasToOdd(int num){
+  if(num%2==1){
+          return true;
+  }
+  return false;
+}
 int  main(int argc,char *argv[])
 {
 int *p= malloc(sizeof(int)); //a1
