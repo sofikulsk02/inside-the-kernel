@@ -8,6 +8,10 @@ int hasToOdd(int num){
   }
   return false;
 }
+int validation(char ch){
+  if(ch=='a') return 1;
+  else return 0;
+}
 int  main(int argc,char *argv[])
 {
 int *p= malloc(sizeof(int)); //a1
