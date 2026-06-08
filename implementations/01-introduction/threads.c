@@ -13,7 +13,12 @@ void *worker(void *arg) {
     }
     return NULL;
 }
-
+void check(char argc){
+    if(argc=='c'){
+        printf("check");
+    }
+    else printf("null")
+}
 int main(int argc, char *argv[]) {
     if (argc != 2) {
         fprintf(stderr, "usage: threads <value>\n");
