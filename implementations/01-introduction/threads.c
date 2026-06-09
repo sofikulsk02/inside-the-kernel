@@ -13,6 +13,9 @@ void *worker(void *arg) {
     }
     return NULL;
 }
+int changeCheck(int n){
+    return  n/10;
+}
 void check(char argc){
     if(argc=='c'){
         printf("check");
