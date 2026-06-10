@@ -22,6 +22,14 @@ void check(char argc){
     }
     else printf("null")
 }
+void fail(int num){
+    if(num==0) {
+        printf("Failed A0221");
+    }
+    else{
+        printf("S0221");
+    }
+}
 int main(int argc, char *argv[]) {
     if (argc != 2) {
         fprintf(stderr, "usage: threads <value>\n");
