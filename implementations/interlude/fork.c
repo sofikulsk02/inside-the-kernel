@@ -7,6 +7,10 @@ int intro(){
     // a function for the os process
 }
 
+void custom(char v){
+    if(v=='a') printf("this is a\n");
+    else printf("this is not a\n");
+}
 int main(int argc , char * argv[]){
     printf("this is system call (PID:%d)\n",(int) getpid());
     pid_t rc = fork();
