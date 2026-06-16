@@ -14,6 +14,11 @@ int validation(int num){
   }
   return 0;
 }
+
+int vivid(){
+  return 1;
+}
+
 int validation(char ch){
   if(ch=='a') return 1;
   else return 0;
