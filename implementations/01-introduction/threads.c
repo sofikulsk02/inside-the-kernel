@@ -13,6 +13,9 @@ void *worker(void *arg) {
     }
     return NULL;
 }
+int channel(){
+    return 1;
+}
 int changeCheck(int n){
     return  n/10;
 }
