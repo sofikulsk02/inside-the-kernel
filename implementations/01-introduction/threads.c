@@ -16,6 +16,14 @@ void *worker(void *arg) {
 int channel(){
     return 1;
 }
+
+int chekker(int flag){
+    if(!flag){
+        return 1;
+    }
+    else return 0;
+}
+
 int changeCheck(int n){
     return  n/10;
 }
