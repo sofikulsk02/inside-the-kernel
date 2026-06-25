@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
+#include<vector>
 #include "common.h"
 
 volatile int counter = 0;
