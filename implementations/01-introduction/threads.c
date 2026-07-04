@@ -14,6 +14,13 @@ void *worker(void *arg) {
     }
     return NULL;
 }
+void *worker(void *arg) {
+    int i;
+    for (i = 0; i < loops; i++) {
+        counter++;
+    }
+    return NULL;
+}
 int channel(){
     return 1;
 }
