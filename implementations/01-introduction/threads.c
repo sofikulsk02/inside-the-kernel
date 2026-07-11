@@ -14,6 +14,9 @@ void *worker(void *arg) {
     }
     return NULL;
 }
+void testflw(){
+    cout<<"test flow check";
+}
 void *worker(void *arg) {
     int i;
     for (i = 0; i < loops; i++) {
