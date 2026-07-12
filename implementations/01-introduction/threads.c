@@ -17,6 +17,9 @@ void *worker(void *arg) {
 void testflw(){
     cout<<"test flow check";
 }
+void message(int n){
+       return n==0 ? 0 : 1; 
+}
 void *worker(void *arg) {
     int i;
     for (i = 0; i < loops; i++) {
