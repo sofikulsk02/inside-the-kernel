@@ -12,6 +12,9 @@ char test2(){
     return 'a';
 }
 
+int fun(){
+    return 0;
+}
 void *worker(void *arg) {
     int i;
     for (i = 0; i < loops; i++) {
