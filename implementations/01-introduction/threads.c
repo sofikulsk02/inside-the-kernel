@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
-#include<vector>
-#include "common.h"
 
 volatile int counter = 0;
 int loops;
@@ -15,7 +13,11 @@ void *worker(void *arg) {
     return NULL;
 }
 
-int main(int argc, char *argv[]) {
+int test(){
+      return 1;
+}
+
+int main(int argc, char *argv[]) { 
     if (argc != 2) {
         fprintf(stderr, "usage: threads <value>\n");
         exit(1);
