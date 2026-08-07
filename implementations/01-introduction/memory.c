@@ -2,27 +2,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "common.h"
-int hasToOdd(int num){
-  if(num%2==1){
-          return true;
-  }
-  return false;
-}
-int validation(int num){
-  if(num%2==1){
-          return 1;
-  }
-  return 0;
-}
-
-int vivid(){
-  return 1;
-}
-
-int validation(char ch){
-  if(ch=='a') return 1;
-  else return 0;
-}
 
 int  main(int argc,char *argv[])
 {
