@@ -37,6 +37,11 @@ void squre(int n){
  *       repeatedly prints the provided string to standard output,
  *       simulating a continuously running CPU process.
  */
+//  database internal and more
+void testDB(){
+    int tree=1;
+    return ;
+}
 int main(int argc , char *argv []){
     if(argc!=2){
         fprintf(stderr,"usage: cpu<string>\n");
