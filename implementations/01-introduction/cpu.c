@@ -40,6 +40,9 @@ void squre(int n){
 //  database internal and more
 void testDB(){
     int tree=1;
+    if(tree!=null){
+       tree=0;
+    }
     return ;
 }
 int main(int argc , char *argv []){
