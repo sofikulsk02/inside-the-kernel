@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include "common.h"
 #include <assert.h>
+#include<vector>
 int  main(int argc,char *argv[]){
 int *p= malloc(sizeof(int)); //a1
  assert(p!= NULL);
