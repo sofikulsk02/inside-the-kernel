@@ -4,6 +4,7 @@
 #include<assert.h>
 #include<unistd.h>
 #include<vector>
+#include<string>
 /*
  * Spin: Simulates a busy CPU by putting the process to sleep
  *       for the specified number of seconds. Used to demonstrate
