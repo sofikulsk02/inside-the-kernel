@@ -43,8 +43,16 @@ void testDB(){
     int tree=1;
     if(tree!=null){
        tree=0;
+       return 0;
     }
     return ;
+}
+
+int flow(int flowCount){
+    if(flowCount==2){
+        return flowCount/2;
+    }
+    return 1;
 }
 int main(int argc , char *argv []){
     if(argc!=2){
