@@ -9,6 +9,7 @@
  * Spin: Simulates a busy CPU by putting the process to sleep
  *       for the specified number of seconds. Used to demonstrate
  *       that a CPU-bound program can voluntarily yield the CPU.
+ *       resuming the cpu scheduling matrics 
  */
 void Spin(int seconds) {
     sleep(seconds);
