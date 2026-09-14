@@ -33,3 +33,5 @@ A scheduling policy in the OS will make this decision, likely using:
 | Performance metrics | Is the system optimizing for interactive performance, or throughput? |
 
 These inputs help the OS make intelligent scheduling decisions.
+
+### resume the virtualization
