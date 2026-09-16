@@ -35,3 +35,6 @@ A scheduling policy in the OS will make this decision, likely using:
 These inputs help the OS make intelligent scheduling decisions.
 
 ### resume the virtualization
+
+
+## will add more note for virtualization
